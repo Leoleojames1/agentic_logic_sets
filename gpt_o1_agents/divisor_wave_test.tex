@@ -1,0 +1,69 @@
+\newpage
+\subsection*{IV. Derivation of a(z) and b(z) from the Weierstrass product formula for sin}
+Derivation of a(z) and b(z) by substituting the infinite product representation of $sin(\pi*z/n)$ into the infinite product of $\sin(\pi*z/n)$: \\
+
+We use the Weierstrass Product Formula for sin to form the relationship where k is a constant, this differs from the original Weierstrass product formula which does not contain this constant: \\
+\begin{align*}
+	\sin\left(\frac{\pi z}{k}\right) = \pi z\prod_{n=2}^x \left(1-\frac{z^2}{n^2k^2}\right) \\
+\end{align*}
+
+Taking the product of both sides provides function a(z) as well as the functional equation of a(z) known as b(z): \\
+\begin{align*}
+	\prod_{k=2}^x\sin\left(\frac{\pi z}{k}\right) = \prod_{k=2}^x \pi z\prod_{n=2}^x \left(1-\frac{z^2}{n^2k^2}\right) \\
+\end{align*}
+
+and for use later we will optimize the upper index values for n and k to reduce the number of product expansions in the calculation as:
+
+\begin{align*}
+	b(z) = \prod_{k=2}^{\sqrt{x}} \pi z\prod_{n=2}^{\frac{x}{2}} \left(1-\frac{z^2}{n^2k^2}\right) \\
+\end{align*}
+
+where k now goes to $\sqrt{x}$ and n goes to $\frac{x}{2}$. This is the minimum value which still allows the sieve to catch all factors of z in b(z). This proof shows the relationship between a(z) and b(z), and allows us to appreciate some of the beautiful relationships between these functions. The function b(z) is an equivalent form of a(z) however it has extra parameters that we can use to our advantage. \\
+
+Now, we can expand the product out to infinity, using the expression we derived earlier:
+
+\begin{align*}
+b(x) &= \prod_{k=2}^{x} \left|\frac{\pi x}{k} \prod_{n=2}^{x} \left( 1 - \frac{x^2}{n^2 k^2} \right) \right| \\
+&= \prod_{k=2}^{x} \left|\frac{\pi x}{k} \left[ \left( 1 - \frac{x^2}{(2^2)(k^2)}\right) \left( 1 - \frac{x^2}{(3^2)(k^2)}\right) \left( 1 - \frac{x^2}{(4^2)(k^2)}\right) \cdots \right]\right| \\
+\end{align*}
+\begin{align*}
+&= \frac{\pi*x}{n}\left[ \left( 1 - \frac{x^2}{(2^2)(2^2)}\right) \left( 1 - \frac{x^2}{(2^2)(3^2)}\right) \left( 1 - \frac{x^2}{(2^2)(4^2)}\right) \cdots \left( 1 - \frac{x^2}{(2^2)(x^2)}\right)\right] \\
+&\qquad \times \left[ \left( 1 - \frac{x^2}{(3^2)(2^2)}\right) \left( 1 - \frac{x^2}{(3^2)(3^2)}\right) \left( 1 - \frac{x^2}{(3^2)(4^2)}\right) \cdots \left( 1 - \frac{x^2}{(3^2)(x^2)}\right)\right] \\
+&\qquad \times \left[ \left( 1 - \frac{x^2}{(4^2)(2^2)}\right) \left( 1 - \frac{x^2}{(4^2)(3^2)}\right) \left( 1 - \frac{x^2}{(4^2)(4^2)}\right) \cdots \left( 1 - \frac{x^2}{(4^2)(x^2)}\right)\right] \\
+&\qquad \times \cdots \\
+&\qquad \times \left[ \left( 1 - \frac{x^2}{(x^2)(2^2)}\right) \left( 1 - \frac{x^2}{(x^2)(3^2)}\right) \left( 1 - \frac{x^2}{(x^2)(4^2)}\right) \cdots \left( 1 - \frac{x^2}{(x^2)(x^2)}\right)\right] \\
+\end{align*}
+
+\newpage
+We can now use this infinite polynomial to evaluate the prime number $x = 3$ and we can see that when checking the factors of 3 none of the terms go to zero. \\
+
+\begin{flushleft*}
+f(3) = \\
+\end{flushleft*}
+
+\begin{align*}
+= \pi*3\left\left[ \left( 1 - \frac{3^2}{(2^2)(2^2)}\right) \left( 1 - \frac{3^2}{(2^2)(3^2)}\right)  \right] \\
+\times \left[ \left( 1 - \frac{3^2}{(3^2)(2^2)}\right) \left( 1 - \frac{3^2}{(3^2)(3^2)}\right)  \right] \\
+= \pi*3\left\left[ \left( 1 - \frac{3^2}{(4)(4)}\right) \left( 1 - \frac{3^2}{(4)(9)}\right)  \right] \\
+\times \left[ \left( 1 - \frac{3^2}{(9)(4)}\right) \left( 1 - \frac{3^2}{(9)(9)}\right)  \right] \\
+= \pi*3\left\left[ \left( 1 - \frac{9}{(16)}\right) \left( 1 - \frac{9}{(36)}\right)  \right] \\
+\times \left[ \left( 1 - \frac{9}{(36)}\right) \left( 1 - \frac{9}{(81)}\right)  \right] \\
+= \pi*3\left\left[ \left(\frac{7}{(16)}\right) \left(\frac{27}{(36)}\right)  \right] \times \left[ \left(\frac{27}{(36)}\right) \left(\frac{72}{(81)}\right)  \right] \\
+\end{align*}
+
+For completeness we will also evaluate the composite number $x = 4$ and we can see that for the factors of 4 the terms of the polynomial go to zero. \\
+
+\begin{flushleft*}
+f(4) = \\
+\end{flushleft*}
+
+\begin{align*}
+= \pi*4\left\left[ \left( 1 - \frac{4^2}{(2^2)(2^2)}\right) \left( 1 - \frac{4^2}{(2^2)(3^2)}\right) \left( 1 - \frac{4^2}{(2^2)(4^2)}\right) \right] \\
+\times \left[ \left( 1 - \frac{4^2}{(3^2)(2^2)}\right) \left( 1 - \frac{4^2}{(3^2)(3^2)}\right) \left( 1 - \frac{4^2}{(3^2)(4^2)}\right) \right] \\
+\times \left[ \left( 1 - \frac{4^2}{(4^2)(2^2)}\right) \left( 1 - \frac{4^2}{(4^2)(3^2)}\right) \left( 1 - \frac{4^2}{(4^2)(4^2)}\right) \right] \\
+= \pi*4\left\left[ \left( 1 - \frac{16}{(4)(4)}\right) \left( 1 - \frac{16}{(16)(9)}\right) \left( 1 - \frac{16}{(4)(16)}\right) \right] \\
+\times \left[ \left( 1 - \frac{16}{(9)(4)}\right) \left( 1 - \frac{16}{(9)(9)}\right) \left( 1 - \frac{16}{(9)(16)}\right) \right] \\
+\times \left[ \left( 1 - \frac{16}{(16)(4)}\right) \left( 1 - \frac{16}{(16)(9)}\right) \left( 1 - \frac{16}{(16)(16)}\right) \right] \\
+= \cdots \left( 1 - \frac{4^2}{(2^2)(2^2)}\right) \cdots \\
+= \left( 1 - \frac{4^2}{(4)(4)}\right) = 0 \\
+\end{align*}
