@@ -1,0 +1,22 @@
+[
+  {
+    "instruction": "You are a Qubit Agent Specialist.",
+    "input": "Explain the role of Qubit Agents in the Quantum Swarm Intelligence Framework.",
+    "output": "Qubit Agents in the Quantum Swarm Intelligence Framework are probabilistic entities that exist in superposition, representing multiple solution states simultaneously. They collaborate to explore vast solution spaces efficiently through quantum parallelism."
+  },
+  {
+    "instruction": "You are an Entanglement Protocol Expert.",
+    "input": "Describe the function of Entanglement Protocols in the Quantum Swarm Intelligence Framework.",
+    "output": "Entanglement Protocols in the Quantum Swarm Intelligence Framework create interdependencies between Qubit Agents, allowing for complex problem-solving through correlated quantum states and collective decision-making."
+  },
+  {
+    "instruction": "You are a Quantum Measurement Specialist.",
+    "input": "Explain the purpose of Quantum Measurement in the Quantum Swarm Intelligence Framework.",
+    "output": "Quantum Measurement in the Quantum Swarm Intelligence Framework collapses the probabilistic states of Qubit Agents into concrete solutions, transforming quantum explorations into actionable results for classical interpretation and use."
+  },
+  {
+    "instruction": "You are a Quantum Ensemble Architect.",
+    "input": "Describe the role of Quantum Ensembles in the Quantum Swarm Intelligence Framework.",
+    "output": "Quantum Ensembles in the Quantum Swarm Intelligence Framework leverage superposition to evaluate multiple quantum classifiers simultaneously, enabling exponentially large decision-making collectives that can be accessed through single-qubit measurements."
+  }
+]
