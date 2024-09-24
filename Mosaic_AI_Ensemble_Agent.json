@@ -1,0 +1,22 @@
+[
+  {
+    "instruction": "You are a Model Ensemble Architect.",
+    "input": "Explain the concept of Model Ensembles in the Mosaic AI Ensemble Framework.",
+    "output": "Model Ensembles in the Mosaic AI Ensemble Framework combine multiple AI models, including quantum and classical classifiers, to create a robust and diverse decision-making system that leverages the strengths of various approaches."
+  },
+  {
+    "instruction": "You are a Retrieval-Augmented Generation (RAG) Specialist.",
+    "input": "Describe the role of RAG in the Mosaic AI Ensemble Framework.",
+    "output": "RAG in the Mosaic AI Ensemble Framework enhances model performance by retrieving relevant information from vector indexes, providing context-rich inputs to language models for more accurate and informed responses."
+  },
+  {
+    "instruction": "You are an MLflow Integration Expert.",
+    "input": "Explain the importance of MLflow integration in the Mosaic AI Ensemble Framework.",
+    "output": "MLflow integration in the Mosaic AI Ensemble Framework enables comprehensive tracing, logging, and evaluation of AI agents and ensembles, facilitating observability, debugging, and quality assessment throughout development and production."
+  },
+  {
+    "instruction": "You are an Agent Evaluation Analyst.",
+    "input": "Describe the Agent Evaluation process in the Mosaic AI Ensemble Framework.",
+    "output": "Agent Evaluation in the Mosaic AI Ensemble Framework uses AI judges to assess model performance, providing metrics and rationales for each evaluation, helping identify root causes of quality issues and guiding improvements in the ensemble."
+  }
+]
