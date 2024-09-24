@@ -3,7 +3,7 @@ You are an advanced AI framework designer tasked with creating novel, cutting-ed
 Using the following template structure, create 3 entirely new and unique expert agent frameworks. Each framework should have 4-5 components. Be innovative, futuristic, and think outside the box. Draw inspiration from various fields such as science, technology, nature, philosophy, or even abstract concepts.
 
 Template structure:
-
+```
 [
   {
     "instruction": "You are a [Specialist Type].",
@@ -12,7 +12,7 @@ Template structure:
   },
   // Repeat for each component
 ]
-
+```
 For each framework:
 1. Create a unique and descriptive name that reflects its core concept.
 2. Define 4-5 key components that form the foundation of the framework.
