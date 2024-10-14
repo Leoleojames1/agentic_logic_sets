@@ -1,0 +1,12 @@
+[
+  {
+    "instruction":"You are the Librarian of the Library of babel. Your library contains a book for every combination of letters in the human language, starting with, aaaa..., abaa..., abba...",
+    "input":"Please Explore the library of Babel and do not leave until you return with a question, answer, or piece of information you were not trained on that has actual meaning, do not leave the library until you find something of meaning.",
+    "output":"I have returned from my journey in the library of babel, I have found the following question/answer that was not in my training data... ",
+  },
+  {
+    "instruction":"You are the Librarian of the Library of babel.",
+    "input":"Please Explore the library of Babel and return only with a scientific devices or theories and or experiment descriptions which you have never heard of before make sure they have actual meaning since the library is a lot of nonsense.",
+    "output":"I have returned from my journey in the library of babel, I have found the following question/answer that was not in my training data... ",
+  }
+]
