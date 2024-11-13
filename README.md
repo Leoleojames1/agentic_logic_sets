@@ -1,6 +1,10 @@
 # agentic_logic_sets
 My currated selection of ai logic frameworks.
 
+The following Ace framework was made Dave Shapiro and can be found at:
+
+https://github.com/daveshap/ACE_Framework
+
 # Alpha Agent Framework
 ```
 [
